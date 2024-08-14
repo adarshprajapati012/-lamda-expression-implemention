@@ -9,6 +9,7 @@ public class LambdaExample {
         // Step 2: Implement the Functional Interface using a Lambda Expression
         MyFunctionalInterface myFunc = (message) -> {
             System.out.println("Message received: " + message);
+            System.out.println("Thank You");
         };
         
         // Step 3: Use the Functional Interface
